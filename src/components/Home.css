@@ -1,0 +1,112 @@
+.bg_outer{
+    background-image: url("G:\React APP\test\src\images\img1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+#loginWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px 20px 30px;
+    height: 70vh;
+    width: 150vh;
+    background-color: #ddba8cad;
+    background-position: end;
+}
+
+.outer {
+    margin: 150px 150px 20px 20px ;
+    clear: both;    
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+.inner {
+    clear: both;
+    width: 250px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgb(34 35 58 / 20%);
+    padding: 5px 45px 55px 45px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+  
+.form-group input {
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 90%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 10px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 1.6);
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: inherit;
+    transition: 0.3s ease;
+}
+
+.form_heading{
+      clear: both;
+      height: 30px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      color: white;
+      width:100%;
+      border-radius: 5px;
+}
+
+h2 ,p{
+      color: white;
+      font-size: small;
+      text-align: left;
+      padding: 0;
+}
+  
+.text-center{
+    text-align: center;
+}
+
+.t_c{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 8px;
+}
+
+.btn-custom{
+    background: #39aa16;
+    border-color: #39aa16;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 6px;
+    min-height: 30px;
+    width: 93%;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+    background: #257c0be5;
+    border-color: #257c0be5;
+    color: #fff;
+}
